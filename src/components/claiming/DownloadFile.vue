@@ -1,17 +1,16 @@
 <template>
   <NavigationCard
     data-test="download-file"
-    title="Export and send your token claim file"
+    title="Export your token claim receipt"
     :next-step="nextStep"
     next-text="Continue"
     :disabled-next-button="disabledNextButton"
   >
     <p class="text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ipsum
-      cursus, consequat quam in, vestibulum erat. Duis ut diam fringilla, varius
-      diam ac, ornare arcu.
-    </p>
-    <div class="file-container">
+      Almost ready! A claiming receipt has been created and it's being approved in order to complete the claiming process.
+      It is recomended to export the claiming reciept since it is an evidence of your claiming process, you can fince it
+      below: </p
+    ><div class="file-container">
       <el-button
         type="primary"
         size="small"
@@ -34,6 +33,9 @@
         </p>
       </div>
     </div>
+    <p>
+      You will receive a confirmation email when the file is been approved.
+    </p>
   </NavigationCard>
 </template>
 

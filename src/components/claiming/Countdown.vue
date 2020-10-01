@@ -6,9 +6,12 @@
   >
     <p>
       You have completed the Witnet token claim process successfully on the
-      Sheikah side, but please
-      <span class="bold">REMEMBER TO SEND THE CLAIM FILE TO THIS ADDRESS:</span>
+      Sheikah side, but remember
+      <span class="bold"
+        >YOU WILL RECEIVE A CONFIRMATION EMAIL.</span
+      >
     </p>
+    If you don't receive it, please contact us:
     <a class="e-mail" href="mailto:genesis@witnet.foundation">
       genesis@witnet.foundation
     </a>
